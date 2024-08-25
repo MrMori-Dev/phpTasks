@@ -1,0 +1,23 @@
+{
+    "name": "morteza/project",
+    "description": "a simple web app",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Morteza\\Project\\": "src/"
+        },
+        "files": ["src/product.php"]
+    },
+    "authors": [
+        {
+            "name": "MrMori-Dev",
+            "email": "148895434+MrMori-Dev@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
