@@ -1,0 +1,25 @@
+{
+    "name": "morteza/test9",
+    "description": "task composer autoload namespace",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "models\\" : "models/"
+        },
+        "classmap" : [
+            "users/"
+        ],
+        "files" : [
+            "Comment.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "MrMori-Dev",
+            "email": "148895434+MrMori-Dev@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
